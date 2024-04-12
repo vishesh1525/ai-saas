@@ -32,14 +32,14 @@ const tools=[
     icon:ImageIcon,
     color:'text-emerald-700',
     bgColor:"bg-emerald-700/10",
-    href:"/video"
+    href:"/image"
   },
   {
     label:"Video-generator",
     icon:VideoIcon,
     color:'text-orange-700',
     bgColor:"bg-orange-700/10",
-    href:"/image"
+    href:"/video"
   },
   {
     label:"Code-generator",
