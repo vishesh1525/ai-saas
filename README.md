@@ -40,8 +40,10 @@ Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/your-username/saas-website.git
+https://github.com/vishesh1525/ai-saas.git
+
 cd saas-website
+
 Install Dependencies
 
 bash
@@ -54,11 +56,17 @@ Add your environment variables as shown in the .env.example file.
 Run the Development Server
 
 bash
+
 Copy code
+
 npm run dev
+
 Visit http://localhost:3000 to see the application in action.
+
 Deployment
+
 This project can be easily deployed on platforms like Vercel, Netlify, or any other hosting service that supports Next.js applications.
+
 Usage
 User Authentication
 Sign up and log in using Clerk authentication.
@@ -72,6 +80,7 @@ Supports multiple programming languages with instant execution.
 Video Upload & Conversion
 Upload videos through the video upload feature.
 Convert images for social media platforms with a few clicks.
+
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes.
 
