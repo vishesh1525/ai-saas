@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { Montserrat } from 'next/font/google'
 import Link from "next/link"
 import Image from "next/image";
-import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, UploadIcon, VideoIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 const poppins = Montserrat ({ weight: '600', subsets: ['latin'] });
 
@@ -43,6 +43,17 @@ const routes=[
         icon: Code,
         color: "text-green-700",
         href: '/code',
+      },
+      {
+        label: 'Social Media Post Generation',
+        icon: ImageIcon,
+        color: "text-blue-700",
+        href: '/social-share',
+      },
+      {
+        label: 'Video-upload',
+        icon: UploadIcon,
+        href: '/video-upload',
       },
       {
         label: 'Settings',

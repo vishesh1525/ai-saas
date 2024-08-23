@@ -10,7 +10,7 @@ export default authMiddleware({
   // authentication information:
   // ignoredRoutes: ['/no-auth-in-this-route'],
 
-  publicRoutes:["/"]
+  publicRoutes:["/","/api/videoupload"]
 });
  
 export const config = {
