@@ -1,5 +1,5 @@
 'use client'
-import { ArrowRight, Code2Icon, CodeIcon, ImageIcon, Music, VideoIcon } from "lucide-react";
+import { ArrowRight, Code2Icon, CodeIcon, ImageIcon, Music, UploadIcon, VideoIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { MessageSquare } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -49,10 +49,17 @@ const tools = [
   },
   {
     label: "Video-uploader",
-    icon: VideoIcon,
+    icon: UploadIcon,
     color: 'text-violet-700',
     bgColor: "bg-white-700/10",
     href: "/video-upload"
+  },
+  {
+    label: "uploaded-Videos",
+    icon: VideoIcon,
+    color: 'text-green-700',
+    bgColor: "bg-white-700/10",
+    href: "/videos"
   },
 ];
 

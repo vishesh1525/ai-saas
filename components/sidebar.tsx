@@ -56,6 +56,11 @@ const routes=[
         href: '/video-upload',
       },
       {
+        label: 'Uploaded-Videos',
+        icon: VideoIcon,
+        href: '/videos',
+      },
+      {
         label: 'Settings',
         icon: Settings,
         href: '/settings',
