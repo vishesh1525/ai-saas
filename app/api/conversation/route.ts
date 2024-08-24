@@ -62,7 +62,7 @@ export async function POST(req: Request) {
   };
 
   try {
-    // Replace auth() with your actual authentication logic
+   
     const { userId } = auth();
     if (!userId) {
       return new NextResponse('Unauthorized', { status: 401 });
