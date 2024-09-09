@@ -26,6 +26,7 @@
     "crisp-sdk-web": "^1.0.22",
     "dayjs": "^1.11.12",
     "filesize": "^10.1.4",
+    "framer-motion": "^11.5.4",
     "lucide-react": "^0.359.0",
     "next": "^14.2.8",
     "next-cloudinary": "^6.10.0",
